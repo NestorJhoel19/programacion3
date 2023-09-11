@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="alta.php" method="post">
+        <select name="colores"> <!--Con el elemento select: creamos un combo box-->
+            <option value="rojo">Rojo</option>
+            <option value="azul">Azul</option>
+            <option value="amarillo">Amarillo</option>
+            <option value="negro">Negro</option>
+        </select><br>
+        <textarea name="message" rows="10" cols="30"> 
+            Esto es un mensaje de prueba escrito en un textarea
+        </textarea><br>
+
+        <input type="checkbox" name="vehicle1" value="bicicleta"> Tengo una biclicleta <br>
+        <input type="checkbox" name="vehicle2" value="Carro"> Tengo un coche <br>
+        Selecciona tu color favorito:
+        <input type="color" name="favcolor"><br>
+        Tu cumpleanios:
+        <input type="date" name="birthday"><br>
+        Selecciona un fichero: <input type="file" name="myFile">
+        <br><br>
+        <input type="range" name="points" min="0" max="10">
+        <input type="submit" value="Envio datos">
+    </form>
+</body>
+</html>
