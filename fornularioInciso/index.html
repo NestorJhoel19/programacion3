@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="serie.js" defer></script>
+</head>
+<body>
+
+    <h2>Menu de Navegacion</h2>
+    <nav>
+        <ul>
+            <a href="index.html">
+                <ul>
+                    <li>Unicio</li>
+                </ul>
+            </a>
+        </ul>
+    </nav>
+
+    <h1>Hola mundo</h1>
+
+    <form action="datos.php" method="post" target="_blank">
+        <fieldset>
+            <legend>Leyenda</legend>
+            Nombre: <br>
+            <input type="text" name="nombre"> <br>
+            Apellido: <br>
+            <input type="text" name="apellido"> <br>
+            Sexo: <br>
+            <input type="radio" name="genero" value="masculino" checked>Hombre <br>
+            <input type="radio" name="genero" value="femenino">Mujer <br>
+            <input type="radio" name="genero" value="otros">Otros<br>
+            Actividad: <br>
+            <input type="radio" name="actividad" value="estudiante" checked> Estudiante: <br>
+            <input type="radio" name="actividad" value="profesional"> Profesional <br>
+            Lenguajes programacion: <br>
+            <input type="checkbox" name="lenguaje1" value="PHP"> PHP <br>
+            <input type="checkbox" name="lenguaje2" value="Java"> Java <br>
+            <input type="checkbox" name="lenguaje3" value="Python"> Python <br>
+            Fecha nacimiento
+            <input type="date" name="fechanac"> <br>
+            <input type="submit" value="Enviar datos">
+        </fieldset>
+        <h3>Opciones Extra:</h3>
+        <!--
+        <input type="button" value="Mostrar Saludo" onclick="saludo()">
+        <input type="button" value="Mostrar Serie" onclick="serie()">
+        -->
+    </form>
+</body>
+</html>
